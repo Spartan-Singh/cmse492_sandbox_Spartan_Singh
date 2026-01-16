@@ -1,3 +1,3 @@
-- note 1
-- note 2
-- note 3
+- Verified python in terminal and notebook
+- Verified if Git is install and then we configured git identity
+- Ran checks to see if VS code was working properly
