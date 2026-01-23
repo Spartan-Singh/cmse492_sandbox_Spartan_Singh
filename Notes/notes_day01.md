@@ -1,0 +1,4 @@
+- Verified python was working properly in terminal and notebook
+- Verified if Git is installed and then we configured git identity
+- Also did a GitHub connectivity check
+- Ran checks to see if VS code was working properly
