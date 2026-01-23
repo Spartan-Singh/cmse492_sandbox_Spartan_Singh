@@ -42,3 +42,15 @@ src : /Users/anmol/Documents/Uni_Code/CMSE492/cmse492_sandbox/day02_venv_demo/sr
 README.md : /Users/anmol/Documents/Uni_Code/CMSE492/cmse492_sandbox/day02_venv_demo/README.md
 requirements.txt : /Users/anmol/Documents/Uni_Code/CMSE492/cmse492_sandbox/day02_venv_demo/requirements.txt
 Notes : /Users/anmol/Documents/Uni_Code/CMSE492/cmse492_sandbox/Notes
+
+## Analysis P2
+
+The analysis for this assignment is a Python script located at:
+
+/Users/anmol/Documents/Uni_Code/CMSE492/cmse492_sandbox/day02_venv_demo/src/simple_analysis.py
+
+The script creates a small dataset using pandas. It then calculates the average score from the data and visualizes the results using a simple line plot with matplotlib.
+
+To run the analysis, make sure the virtual environment is activated, then run the following command from the terminal:
+
+python src/simple_analysis.py
