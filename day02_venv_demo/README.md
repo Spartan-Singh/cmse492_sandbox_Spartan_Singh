@@ -3,7 +3,7 @@
  This project's goal was to learn how to setup a python virtual enviorment and how to recreate that same enviormnet's setting within other enviroments.
 
 
-# 2) Setup (venv) section
+# 2a) Setup (venv) section
 
 ## 1. Create the virtual environment
 
@@ -26,6 +26,45 @@
 
  From the terminal type the following:
  python -c "import numpy, pandas, matplotlib; print('packages OK')"
+
+
+# 2b) Setup (conda) section
+
+## 1. Create the conda environment
+
+ From the terminal, navigate to the project folder that contains `environment.yml`, then type the following:
+ conda env create -f environment.yml
+
+
+## 2. Activate the conda environment
+
+ From the terminal type the following:
+ conda activate day03-conda-env
+
+
+## 3. Verify the installation
+
+ From the terminal type the following:
+ python --version
+ python -c "import numpy, pandas, matplotlib; print('All packages OK.')"
+
+
+## 4. Run the analysis
+
+ Make sure the conda environment is activated, then run the following command from the project root:
+ python src/simple_analysis.py
+
+
+## 5. Deactivate the conda environment
+
+ When finished, deactivate the environment by typing:
+ conda deactivate
+
+
+## Updating the conda environment
+
+ If `environment.yml` is modified in the future, update the existing conda environment with:
+ conda env update -f environment.yml --prune
 
 
 # 3) Analysis section
